@@ -1,0 +1,17 @@
+<?page title="Auto Generated index.zul"?>
+<hlayout hflex="1" vflex="1"
+	apply = "com.loginPage.Login"
+	style="background-image:url(./anh/anhdep.jpg); background-size:cover">
+	<vlayout
+		style="margin-left:1000px; margin-top: 200px;background-color:#FFFFFF60;padding:20px;border-radius:8px">
+		<label style="color:yellow;font-weight:800"
+			value="TEN DANG NHAP:" />
+		<textbox  id="userName" style="border:1px solid #333" constraint="/^\w[a-zA-Z@#0-9.]*$/: Please do not use space" />
+		<label value="MAT KHAU:" style="color:yellow;font-weight:800" />
+		<textbox id="password" type="password" style="border:1px solid #333"></textbox>
+		<div align="right">
+			<button id = "submitButton" style="background-color:blue">submit</button>
+		</div>
+	</vlayout>
+	<image src="./anh/hoang.gif"></image>
+</hlayout>

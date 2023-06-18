@@ -1,0 +1,22 @@
+<?page title="Trang chủ"?>
+<zk xmlns:h="http://www.w3.org/1999/xhtml"
+	xmlns="http://www.zkoss.org/2005/zul" xmlns:n="native" >
+	<div
+		style=" background-size:cover; height: 100vh ;"
+		apply="com.homePage.HomePage">
+		<include  src="../header.zul"> </include>
+		<div  style="display:flex; flex-direction:row;">
+			<div style = "width:50%" >
+			<label> Gioi thieu cong ty: </label>
+			<h:p> Cong ty chuyen ban nhung mat hang phu kien da banh va chia se kien thuc ve da bong </h:p>
+			</div>
+			
+			<div style = "width:50%" >
+			<label> Tai sao can kien thuc nay: </label>
+			<h:p> Cong ty chuyen ban nhung mat hang phu kien da banh va chia se kien thuc ve da bong </h:p>
+			</div>
+			
+			
+		</div>
+	</div>
+</zk>

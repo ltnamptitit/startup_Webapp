@@ -1,0 +1,47 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk xmlns:h="http://www.w3.org/1999/xhtml"
+	xmlns="http://www.zkoss.org/2005/zul" xmlns:n="native">
+	<style>
+	.head-format{
+		display:flex;
+		flex-direction:row;
+		justify-content: space-between; background-color: #f54275;
+		 height: 50px; align-items: center;
+	}
+	.nav-item{
+	 list-style-type: none;
+	 height : 100%;
+	}
+	.font-head:hover{
+		color: #ede9e8;
+	 }
+	.font-head { font-size : 32px; font-weight : 600; text-decoration: none;color : black}
+	</style>
+
+<div sclass = "head-format" apply="com.header.HeaderController">
+			<div> 
+			<h:small>
+				<h:img width="110" height="50" src="anh/anhlogo.jpg"> </h:img>
+			</h:small>
+			</div>
+			<div style="display:flex; flex-direction:row; justify-content: space-between;width :70% ">
+			<h:li sclass="nav-item" >
+				<a style="cursor: pointer;" sclass = "font-head" id="homePage">Home Page</a>
+			</h:li>
+			<h:li sclass="nav-item" >
+				<a style="cursor: pointer;" sclass = "font-head" id="shopping">Shopping</a>
+			</h:li>
+			<h:li sclass="nav-item" >
+				<a style="cursor: pointer;" sclass = "font-head" id="soccerSkills">Soccer Skills</a>
+			</h:li>
+			<h:li sclass="nav-item" >
+				<a style="cursor: pointer;" sclass = "font-head" id="support">Support</a>
+			</h:li>
+			<h:li sclass="nav-item" >
+				<a style="cursor: pointer;" sclass = "font-head" id="aboutUs">About Us</a>
+			</h:li>
+			</div>
+			
+			<div> Dang xuat</div>
+		</div>
+</zk>
